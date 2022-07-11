@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { App } from './app';
 import './index.module.scss';
-import VehiclesPage from './pages/Vehicles';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById('root') 
 );
 root.render(
   <React.StrictMode>
-    <VehiclesPage />
+    <App />
   </React.StrictMode>
 );
 
